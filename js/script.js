@@ -35,7 +35,7 @@ function cadastrar(){
     else{
     alert("Cadastro realizado com sucesso! 🙃")
     document.getElementById("resultado").innerHTML = 
-    "Nome do(a) aluno(a) é " + nome + "<br> Idade: " + idade + " anos" + "<br> Curso: " + curso;
+    "Nome do(a) aluno(a) é: " + nome + "<br> Idade: " + idade + " anos" + "<br> Curso: " + curso;
 
     document.querySelector(".descricao").textContent = "Informações do Aluno:";
 
